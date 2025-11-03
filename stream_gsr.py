@@ -62,5 +62,5 @@ if __name__ == '__main__':
             shim_dev.shutdown()
         if 'serial' in locals() and serial.is_open:
             serial.close()
-        print("Stream stopped. Goodbye.")
+        print("Stream stopped.")
     
